@@ -1,25 +1,11 @@
 ---
-title: "VPC and Connectivity Options"
+title: "Connectivity UseCases"
 datePublished: Fri Jul 21 2023 20:10:51 GMT+0000 (Coordinated Universal Time)
 cuid: clkd0njed000009lagdchfoym
-slug: vpc-and-connectivity-options
+slug: connectivity-usecases
 tags: aws, aws-vpc, vpc-peering, aws-subnet, aws-direct-connect
 
 ---
-
-VPC, Subnets & AZs
-
-By Default IPv4 CIDR range
-
-/16 VPC (65536 addresses)
-
-/24 subnets ( 251 addresses -- 5 reserved by Amazon )
-
-Use multiple AZs per VPC through multiple subnets
-
-One can also use the IPv6 CIDR range
-
-## Connectivity UseCases
 
 # Send & Receive Traffic to the Internet
 
