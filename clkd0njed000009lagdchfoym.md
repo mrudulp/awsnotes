@@ -7,7 +7,7 @@ tags: aws, aws-vpc, vpc-peering, aws-subnet, aws-direct-connect
 
 ---
 
-# Send & Receive Traffic to the Internet
+### Send & Receive Traffic to the Internet
 
 * To send traffic from a subnet to the internet use Internet Gateway
     
