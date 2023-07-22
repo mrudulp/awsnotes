@@ -68,6 +68,8 @@ VPN is a pair of secure IPSec Tunnels over the internet
 
 AWS Direct Connect is a dedicated line with lower per-GB data transfer rates
 
+*<mark>Note: All Images are captured from AWS Event referred below</mark>*
+
 ## References:
 
 1. ## [https://youtu.be/jZAvKgqlrjY](https://youtu.be/jZAvKgqlrjY)
