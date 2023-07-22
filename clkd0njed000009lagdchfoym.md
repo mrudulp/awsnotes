@@ -13,7 +13,7 @@ tags: aws, aws-vpc, vpc-peering, aws-subnet, aws-direct-connect
     
 * Create a public subnet and a private subnet.
     
-* In the route table for public subnet add an entry for Internet Gateway. This can be achieved by specifying the Target subnet (column) with an entry for internet Gateway and Destination as IP addresses that are allowed to send traffic to the internet. For all addresses specify 0.0.0.0/0
+* In the route table for the public subnet add an entry for Internet Gateway. This can be achieved by specifying the Target subnet (column) with an entry for internet Gateway and Destination as IP addresses that are allowed to send traffic to the internet. For all addresses specify 0.0.0.0/0
     
 * In the route table for private Subnet add an entry for public subnet and/or only to the private subnet itself. This can be achieved by specifying the Target subnet (column) --
     
@@ -25,7 +25,7 @@ tags: aws, aws-vpc, vpc-peering, aws-subnet, aws-direct-connect
     
     * For public subnets specify the port, protocol and CIDR block for the source traffic
         
-    * For private subnets specify the port, protocol and Security Group ID of the public VPC to allow ingress traffic only from the public subnet. By specifying Security Group ID it makes it easy to change vpc but at the same time ensures the same security access is provided for ingress/egress traffic
+    * For private subnets specify the port, protocol and Security Group ID of the public VPC to allow ingress traffic only from the public subnet. By specifying Security Group ID it makes it easy to change VPC but at the same time ensures the same security access is provided for ingress/egress traffic
         
 
 ### Outbound-only Internet Access
@@ -54,7 +54,7 @@ The below diagram shows Peered VPC entry in the Routing table.
 
 One can use VPN or AWS Direct Connect to connect AWS with on-premise networks.
 
-Diagrams below show how network is setup for VPN and Direct Connect
+The diagrams below show how the network is setup for VPN and Direct Connect
 
 **AWS VPN setup**
 
@@ -63,6 +63,10 @@ Diagrams below show how network is setup for VPN and Direct Connect
 AWS Direct Connect
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689970123631/839481d2-ec26-4dd8-a6b2-9bcab242c0da.png align="center")
+
+VPN is a pair of secure IPSec Tunnels over the internet
+
+AWS Direct Connect is a dedicated line with lower per-GB data transfer rates
 
 ## References:
 
