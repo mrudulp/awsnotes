@@ -9,6 +9,8 @@ tags: aws, serverless, sqs, kinesis, sns
 
 ---
 
+# Introduction
+
 Serverless offers the benefit of -
 
 * No Infrastructure Management
@@ -24,7 +26,7 @@ Serverless offers the benefit of -
 
 Image Reference: [https://www.youtube.com/watch?v=d9Jb1WKCLd8](https://www.youtube.com/watch?v=d9Jb1WKCLd8)
 
-Common Use cases involve --
+### Common Use cases
 
 * Calling a backend API for Web or Mobile. Amazon API Gateway can be used in such case
     
@@ -45,9 +47,9 @@ Common Use cases involve --
 
 Image Reference: [https://www.youtube.com/watch?v=d9Jb1WKCLd8](https://www.youtube.com/watch?v=d9Jb1WKCLd8)
 
-## SQS vs SNS vs EventBridge
+# SQS vs SNS vs EventBridge
 
-### SQS -- Simple Queue System
+## SQS -- Simple Queue System
 
 Should be used for Reliable 1 to 1 Async Communication
 
@@ -68,7 +70,7 @@ Image Reference: [https://www.youtube.com/watch?v=RoKAEzdcr7k](https://www.youtu
 * Provides constructs like dead-letter queues and poison-pill management. For more info [https://aws.amazon.com/sqs/](https://aws.amazon.com/sqs/)
     
 
-### SNS -- Simple Notification System
+## SNS -- Simple Notification System
 
 Should be used for the publish-subscribe messaging paradigm.
 
@@ -90,7 +92,7 @@ Upto 24 hrs messages could be persisted
 
 Image Reference: [https://www.youtube.com/watch?v=RoKAEzdcr7k](https://www.youtube.com/watch?v=RoKAEzdcr7k)
 
-### Event bridge
+## Event bridge
 
 * Similar to SNS but it has messagebus and not topics. The main advantage is its **ability to integrate with 3rd party applications**
     
@@ -128,7 +130,7 @@ Image Reference: [https://www.youtube.com/watch?v=RoKAEzdcr7k](https://www.youtu
 
 Image reference: [Choosing Events, Queues, Topics, and Streams in Your Serverless Application - AWS Online Tech Talks - YouTube](https://www.youtube.com/watch?v=d9Jb1WKCLd8)
 
-### Summary
+# Summary
 
 If one needs to **process millions of messages** use **SQS**
 
