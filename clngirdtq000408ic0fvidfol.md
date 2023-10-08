@@ -10,7 +10,7 @@ tags: aws-ec2
 
 ### General Purpose Instance
 
-Provides a balance of compute, memory and networking resources.
+Provides a balance of computing, memory and networking resources.
 
 **Use Case:**
 
@@ -18,7 +18,7 @@ Ideal for web servers & code repositories
 
 ### Compute Optimized
 
-Ideal for compute-bound applications that benefit from high performance processors
+Ideal for compute-bound applications that benefit from high-performance processors
 
 Use Case:
 
@@ -28,7 +28,7 @@ Well suited for --
     
 * Media transcoding
     
-* High performance computing (HPC)
+* High-performance computing (HPC)
     
 * Scientific modeling
     
@@ -47,11 +47,11 @@ Designed for workloads that process large datasets in memory
 
 Well suited for --
 
-* High Performance Databases
+* High-Performance Databases
     
 * Distributed web-scale in-memory caches
     
-* Mid-size inmemory databases
+* Mid-size in-memory databases
     
 * Real-Time big-data analytics
     
@@ -70,7 +70,7 @@ Uses Hardware Accelerators or Coprocessors to perform functions such as floating
     
 * Computational Finance
     
-* Seisimic Analysis
+* Seismic Analysis
     
 * Speech Recognition
     
@@ -98,7 +98,7 @@ Designed for workloads that require high sequential read & write access to large
 
 ### HPC Optimized
 
-Designed to offer best price for running HPC workloads at scale
+Designed to offer the best price for running HPC workloads at scale
 
 **Use Case:**
 
